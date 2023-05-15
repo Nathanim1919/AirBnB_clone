@@ -125,8 +125,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, line):
         """ EOF command to exit the program """
-         print("")
-         return True
+        return True
 
     def emptyline(self):
         """ When the comand line is empty and it's typed """
