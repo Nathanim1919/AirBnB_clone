@@ -12,7 +12,7 @@ for obj_id in all_objs.keys():
 print("-- Create a new User --")
 my_user = User()
 my_user.first_name = "Batty"
-my_user.last_name = "Bar"
+my_user.last_name = "Asnake"
 my_user.email ="selam@gmail.com"
 my_user.password = "root"
 my_user.save()
